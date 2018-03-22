@@ -1,0 +1,93 @@
+@import "https://fonts.googleapis.com/css?family=Raleway"; 
+
+body, ul, li {
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+    font-family: 'Raleway'; 
+}
+
+h1 {
+    margin: 1em; 
+    color: #385c6c; 
+}
+
+.flex {
+    display: flex; 
+}
+
+.page-wrapper {
+    display: flex;
+}
+
+.side-bar {
+    width: 200px; 
+    height: 100vh; 
+    border: 1px solid lightgray; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    color: #393939; 
+    background: #f1f1f1; 
+}
+
+.side-bar .nav-item {
+    padding: 10px; 
+    border-bottom: 1px solid lightgray; 
+    text-transform: uppercase;
+    display: flex; 
+    justify-content: space-between; 
+    font-weight: bold; 
+    cursor: pointer;
+}
+
+.side-bar .nav-item:first-of-type {
+    border-top: 1px solid lightgray; 
+}
+
+.active {
+    background: #2f5466; 
+    color: #fff; 
+}
+
+.nav-icon {
+    background-image: url(icons.png); 
+    background-repeat: no-repeat;  
+    width: 30px; 
+}
+
+#logo {
+    height: 150px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#logo img {
+    height: 70px;
+}
+
+#time {
+    background-position: -50px -30px; 
+}
+
+#history {
+    background-position: -81px 0px; 
+}
+
+#projects {
+    background-position: 13px 0px; 
+}
+
+#activities {
+    background-position: -19px 0px; 
+}
+
+#staff {
+    background-position: -117px 0px; 
+}
+
+#logout {
+    background-position: -150px 1px; 
+}
+
