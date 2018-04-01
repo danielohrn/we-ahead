@@ -1,5 +1,5 @@
-import reportsForm from './js-del-1/reportsForm.js'; 
-import reportsTable from './js-del-1/reportsTable.js'; 
+import reportsForm from './js/reportsForm.js'; 
+import reportsTable from './js/reportsTable.js'; 
 
 const App = (function(){
     
