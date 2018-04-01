@@ -67,8 +67,11 @@ const App = (function(){
         
         // Delete report
         if(target.parentNode.classList.contains('action-delete')) {
-            data.deleteReport(reportId); 
-            reportsTable.renderReports(tableBody, data.reports); 
+
+            if(confirm('Är du säker på att du vill ta bort den valda tiden?')) {
+                data.deleteReport(reportId); 
+                reportsTable.renderReports(tableBody, data.reports); 
+            }
         }
 
         // Edit report
