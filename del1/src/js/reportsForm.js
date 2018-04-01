@@ -1,6 +1,5 @@
 export default (function reportsForm() {
 
-
     return {
         getValuesFromForm(formElement, id = null){
             
