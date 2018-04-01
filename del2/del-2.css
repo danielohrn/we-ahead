@@ -56,38 +56,38 @@ h1 {
     width: 30px; 
 }
 
-#logo {
+.logo {
     height: 150px; 
     display: flex;
     justify-content: center;
     align-items: center; 
 }
 
-#logo img {
+.logo img {
     height: 70px;
 }
 
-#time {
+.time {
     background-position: -50px -30px; 
 }
 
-#history {
+.history {
     background-position: -81px 0px; 
 }
 
-#projects {
+.projects {
     background-position: 13px 0px; 
 }
 
-#activities {
+.activities {
     background-position: -19px 0px; 
 }
 
-#staff {
+.staff {
     background-position: -117px 0px; 
 }
 
-#logout {
+.logout {
     background-position: -150px 1px; 
 }
 
